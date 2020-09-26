@@ -11,7 +11,7 @@ import SwiftUI
 struct DiceeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(leftDiceNumber: 3, rightDiceNumber: 5)
         }
     }
 }
